@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haseeb Iqbal</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div id="header">
@@ -44,13 +45,15 @@
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
+              <p class="tab-links active-link" onclick="OpenTab(this,'skills')">
                 Skills
               </p>
-              <p class="tab-links" onclick="opentab('experience')">
+              <p class="tab-links" onclick="OpenTab(this,'experience')">
                 Experience
               </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="OpenTab(this,'education')">
+                Education
+              </p>
             </div>
             <div class="tab-contents" id="skills">
               <ul>
